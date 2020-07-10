@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    background-image: linear-gradient(to bottom right, #ebfafb, #14a6e0);
+}
+
+h1 {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.container .card {
+    width: 18rem;
+}
+
+.jumbotron {
+    background-color: rgba(247, 235, 235, 0);
+}
+
+.jumbotron h1 {
+    color: #16bfe9;
+}
+
+.jumbotron p {
+    color: #023f4e;
+}
+
+.btn-outline-light {
+    border: 1px solid #16bfe9;
+    background-color: #16bfe900;
+}
+
+.btn-outline-light:hover:hover {
+    background-color: #16bfe900;
+    border: 1px solid #16bfe9;
+}
+
+.btn-outline-light:not(:disabled):not(.disabled):active:focus {
+    background-color: #16bfe900;
+    border: 1px solid #16bfe9;
+}
+
+.text-dropshadow {
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.151);
+}
+
+.lead {
+    font-size: 1.5rem;
+}
+
+.dropdown-menu {
+    background-color: #89ceed;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: #e6f6fd;
+}
